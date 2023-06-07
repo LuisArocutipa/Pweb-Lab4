@@ -8,3 +8,5 @@ pawn = Picture(PAWN)
 queen = Picture(QUEEN)
 rock = Picture(ROCK)
 square = Picture(SQUARE)
+
+horizontal = Picture.horizontalMirror(KNIGHT)
