@@ -12,11 +12,13 @@ class Picture:
     return inverter[color]
 
   def verticalMirror(self):
-    """ Devuelve el espejo vertical de la imagen """
     vertical = []
-    for value in self.img:
-    	vertical.append(value[::-1])
-    return vertical
+    for value in self:
+        inv = ""
+        for x in value:
+            inv = x + inv
+        vertical.append(inv)
+    return Picture(vertical)
 
   def horizontalMirror(self):
     horizontal = []

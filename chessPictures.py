@@ -10,3 +10,4 @@ rock = Picture(ROCK)
 square = Picture(SQUARE)
 
 horizontal = Picture.horizontalMirror(KNIGHT)
+vertical = Picture.verticalMirror(KNIGHT)
