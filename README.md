@@ -98,7 +98,7 @@
 https://github.com/LuisArocutipa/Pweb-Lab4
 - Primero implementamos los archivos necesarios (colors.py, interpreter.py, picture.py, pieces.py y chessPictures.py) a la carpeta donde vamos a trabajar.
  - Comenzamos completando las funciones de la clase Picture.py:
- <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.1.PNG?raw=true" style="width:30%; height:auto"/><br>
+ <br><img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.1.PNG?raw=true" style="width:30%; height:auto"/><br>
  <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.2.PNG?raw=true" style="width:40%; height:auto"/><br>
  <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.3.PNG?raw=true" style="width:40%; height:auto"/><br>
  <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.4.PNG?raw=true" style="width:60%; height:auto"/><br>
