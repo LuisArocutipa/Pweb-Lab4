@@ -118,3 +118,15 @@ https://github.com/LuisArocutipa/Pweb-Lab4
 <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e7.PNG?raw=true" style="width:70%; height:auto"/><br>
 
 #
+
+## CUESTIONARIO
+
+- ¿Qué son los archivos *.pyc?
+    - Los archivos con extensión ".pyc" son archivos de código compilado en Python. Cuando un programa escrito en Python se ejecuta, el código fuente se compila en un código de bytes intermedio llamado "bytecode". Estos archivos de bytecode tienen la extensión ".pyc" y se almacenan en disco para su uso posterior.
+- ¿Para qué sirve el directorio pycache?
+    - La función principal del directorio "pycache" es proporcionar un lugar específico para almacenar los archivos de bytecode generados por el intérprete de Python. Almacenar estos archivos en un directorio separado ayuda a mantener organizado el árbol de directorios del proyecto y evita la saturación del directorio principal con archivos ".pyc".
+- ¿Cuáles son los usos y lo que representa el subguión en Python?
+    - En Python, el subrayado o guion bajo (_) se utiliza de varias formas y tiene diferentes significados dependiendo del contexto:
+    - Nombre de variables privadas: El subrayado se utiliza a menudo al comienzo de un nombre de variable para indicar que es una variable privada.
+    - Ignorar valores: El subrayado se utiliza como una convención para indicar que un valor no se utilizará o no es relevante en una expresión.
+    - Nombres especiales: El subrayado se utiliza en algunos nombres especiales en Python. Por ejemplo, el nombre de una función especial llamada init es utilizado para definir el método de inicialización de una clase.
