@@ -27,29 +27,45 @@ class Picture:
     return Picture(horizontal)
 
   def negative(self):
-    """ Devuelve un negativo de la imagen """
-    return Picture(None)
+    negative = []
+    for value in self.img:
+        new = ""
+        for x in value:
+          new += self._invColor(x)
+        negative.append(new)
+    return Picture(negative)
 
   def join(self, p):
-    """ Devuelve una nueva figura poniendo la figura del argumento 
-        al lado derecho de la figura actual """
-    return Picture(None)
+    joinAr = []
+    for value in range(len(self.img)):
+      joinAr.append(self.img[value] + p.img[value])
+    return Picture(joinAr)
 
   def up(self, p):
-    return Picture(None)
+    upAr = self.img + p.img
+    return Picture(upAr)
 
   def under(self, p):
-    """ Devuelve una nueva figura poniendo la figura p sobre la
-        figura actual """
-    return Picture(None)
+    underAr = []
+    for value in range(len(self.img)):
+      new = ""
+      for x in range(len(self.img)):
+        if p.img[value][x] == " ":
+          new += self.img[value][x]
+        else:
+          new += p.img[value][x]
+      underAr.append(new)
+    return Picture(underAr)
   
   def horizontalRepeat(self, n):
-    """ Devuelve una nueva figura repitiendo la figura actual al costado
-        la cantidad de veces que indique el valor de n """
-    return Picture(None)
+    horizontalAr = []
+    for value in self.img:
+      horizontalAr.append(value*n)
+    return Picture(horizontalAr)
 
   def verticalRepeat(self, n):
-    return Picture(None)
+    verticalAr = self.img*n
+    return Picture(verticalAr)
 
   #Extra: Sólo para realmente viciosos 
   def rotate(self):

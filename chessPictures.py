@@ -9,5 +9,4 @@ queen = Picture(QUEEN)
 rock = Picture(ROCK)
 square = Picture(SQUARE)
 
-horizontal = Picture.horizontalMirror(KNIGHT)
-vertical = Picture.verticalMirror(KNIGHT)
+knightVertical = Picture.verticalMirror(KNIGHT)
