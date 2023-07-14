@@ -98,10 +98,23 @@
 https://github.com/LuisArocutipa/Pweb-Lab4
 - Primero implementamos los archivos necesarios (colors.py, interpreter.py, picture.py, pieces.py y chessPictures.py) a la carpeta donde vamos a trabajar.
  - Comenzamos completando las funciones de la clase Picture.py:
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.1.PNG?raw=true" style="width:30%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.2.PNG?raw=true" style="width:40%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.3.PNG?raw=true" style="width:40%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.4.PNG?raw=true" style="width:60%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.5.PNG?raw=true" style="width:40%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.6.PNG?raw=true" style="width:50%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.7.PNG?raw=true" style="width:40%; height:auto"/><br>
+ <img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4.8.PNG?raw=true" style="width:40%; height:auto"/><br>
  
 - Luego se crearón archivos .py e importamos las funciones y objetos necesarios para cada ejercicio propuesto:
- - En el primer invocamos a la función draw y le enviamos como argumento el objeto knight, unido mediante la función join a otro objeto knight pero esta vez con el color invertido, utilizando la funcion negative. Luego, utilizando la función up, mandamos a la parte superior las dos figuras creadas y en la parte inferior colocamos otros dos objetos siguiendo los mismos pasos que al principio, pero esta vez alternando los colores.
 
-<img src="https://github.com/LuisArocutipa/pwebLab02/blob/master/imagenes/Lab2ej1.PNG?raw=true" alt="ej1" style="width:100%; height:auto"/>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e1.PNG?raw=true" style="width:70%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e2.PNG?raw=true" style="width:70%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e3.PNG?raw=true" style="width:50%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e4.PNG?raw=true" style="width:70%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e5.PNG?raw=true" style="width:70%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e6.PNG?raw=true" style="width:70%; height:auto"/><br>
+<img src="https://github.com/LuisArocutipa/Pweb-Lab4/blob/main/Imagenes/4e7.PNG?raw=true" style="width:70%; height:auto"/><br>
 
 #
